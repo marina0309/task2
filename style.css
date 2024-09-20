@@ -1,0 +1,68 @@
+body {
+    margin:0;
+}
+header{
+    width:100%;
+    /*цвет шапки*/
+    background-color:#AB42BC;
+    padding: 0;
+    margin:0;
+    height:120px;
+}
+.picture-logo{
+    width:250px;
+    height:100px;
+    float:left;
+    margin:10px;
+}
+nav {
+    display: inline-block;
+    max-width: 50%;
+    float: right;
+    margin: 0;
+    /*цвет фона меню с ссылками*/
+    background-color: #FFFFFF;
+}
+.title{
+    text-align: center;
+    background-color:#000000;
+    padding:10px;"
+}
+.content{
+    max-width:800px;
+    margin: 20px auto;
+    padding:10px;
+    /*цвет фона контента*/
+    background-color:#FBDCFF;
+}
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*цвет подвала*/
+    background-color: #AB42BC;
+    height: 120px;
+}
+table {
+    font-size: 20px;
+    /*цвет границ таблицы*/
+    background-color: palegreen;
+}
+td, th{
+    padding: 10px;
+    /*цвет текста таблицы*/
+    color: white;
+}
+
+th{
+    /*цвет фона заголовков таблицы*/
+    background-color: #F08BFF;
+}
+/*нечетные элементы*/
+tr:nth-child(even){
+    background-color: #9D69A5;
+}
+/*четные элементы*/
+tr:nth-child(odd){
+    background-color: #C0AFC3;
+}
